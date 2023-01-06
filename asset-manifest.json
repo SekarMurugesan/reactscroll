@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactscroll/static/css/main.44f8b8b5.css",
-    "main.js": "/reactscroll/static/js/main.baeb83c6.js",
+    "main.js": "/reactscroll/static/js/main.58b47b1c.js",
     "static/js/787.2746eaee.chunk.js": "/reactscroll/static/js/787.2746eaee.chunk.js",
     "index.html": "/reactscroll/index.html",
     "main.44f8b8b5.css.map": "/reactscroll/static/css/main.44f8b8b5.css.map",
-    "main.baeb83c6.js.map": "/reactscroll/static/js/main.baeb83c6.js.map",
+    "main.58b47b1c.js.map": "/reactscroll/static/js/main.58b47b1c.js.map",
     "787.2746eaee.chunk.js.map": "/reactscroll/static/js/787.2746eaee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.baeb83c6.js"
+    "static/js/main.58b47b1c.js"
   ]
 }
