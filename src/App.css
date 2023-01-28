@@ -1,1 +1,7 @@
-
+.editable-table tr th {
+    border: 2px solid black;
+    background-color: rgb(99, 187, 238);
+}
+.editable-table tr td {
+    border: 2px solid black;
+}
