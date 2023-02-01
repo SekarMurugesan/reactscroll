@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/reactscroll/static/css/main.978c9d1f.css",
-    "main.js": "/reactscroll/static/js/main.0e3de938.js",
+    "main.js": "/reactscroll/static/js/main.4f377b37.js",
     "static/js/787.2746eaee.chunk.js": "/reactscroll/static/js/787.2746eaee.chunk.js",
     "static/media/bootstrap-icons.woff?": "/reactscroll/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/reactscroll/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/logo.jpg": "/reactscroll/static/media/logo.d3f0d5c6a4491082b39c.jpg",
     "index.html": "/reactscroll/index.html",
     "main.978c9d1f.css.map": "/reactscroll/static/css/main.978c9d1f.css.map",
-    "main.0e3de938.js.map": "/reactscroll/static/js/main.0e3de938.js.map",
+    "main.4f377b37.js.map": "/reactscroll/static/js/main.4f377b37.js.map",
     "787.2746eaee.chunk.js.map": "/reactscroll/static/js/787.2746eaee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.978c9d1f.css",
-    "static/js/main.0e3de938.js"
+    "static/js/main.4f377b37.js"
   ]
 }
