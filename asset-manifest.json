@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactscroll/static/css/main.978c9d1f.css",
-    "main.js": "/reactscroll/static/js/main.4f377b37.js",
+    "main.css": "/reactscroll/static/css/main.cac56c82.css",
+    "main.js": "/reactscroll/static/js/main.050f64ec.js",
     "static/js/787.2746eaee.chunk.js": "/reactscroll/static/js/787.2746eaee.chunk.js",
     "static/media/bootstrap-icons.woff?": "/reactscroll/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/reactscroll/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/logo.jpg": "/reactscroll/static/media/logo.d3f0d5c6a4491082b39c.jpg",
     "index.html": "/reactscroll/index.html",
-    "main.978c9d1f.css.map": "/reactscroll/static/css/main.978c9d1f.css.map",
-    "main.4f377b37.js.map": "/reactscroll/static/js/main.4f377b37.js.map",
+    "main.cac56c82.css.map": "/reactscroll/static/css/main.cac56c82.css.map",
+    "main.050f64ec.js.map": "/reactscroll/static/js/main.050f64ec.js.map",
     "787.2746eaee.chunk.js.map": "/reactscroll/static/js/787.2746eaee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.978c9d1f.css",
-    "static/js/main.4f377b37.js"
+    "static/css/main.cac56c82.css",
+    "static/js/main.050f64ec.js"
   ]
 }
