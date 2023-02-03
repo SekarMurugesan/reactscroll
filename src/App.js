@@ -3,11 +3,24 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import "@popperjs/core/dist/umd/popper.min.js";
+//popper should come last
 import "bootstrap-icons/font/bootstrap-icons.css";
 import logo from './logo.jpg'
 import { Pagination,Button } from '@mui/material';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-//popper should come last
+import CountriesList from './CountriesList';
+import { Country, State, City }  from 'country-state-city';
+//City.getCountryByCode(countryCode)
+//State.getStateByCodeAndCountry(stateCode, countryCode)
+//State.getStatesOfCountry(countryCode)
+//City.getCitiesOfState(countryCode, stateCode)
+//City.getCitiesOfCountry(countryCode)
+//Country.getAllCountries
+//State.getAllStates
+//City.getAllCities
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
+
 
 
 import './App.css';
@@ -173,7 +186,9 @@ return () => {
 };
 }, [])
 
-
+//countries,state,cities and phone codes 
+const [select, setSelect] = useState("AF");
+const [value, setValue] = useState()
 
   return (
     <>
@@ -277,6 +292,26 @@ return () => {
 
   <h4 id="scrollspyHeading5"></h4><br/><br/><br/><br/><br/>
   <h4><ins>Inifinite:</ins></h4>
+  {/*country,state,cities */}
+  <div style={{lineHeight:"30px"}}>   
+<div><label style={{width:"70px"}}>Country:</label>
+<select value={select} onChange={(e)=>setSelect(e.target.value)}>  
+  {Country.getAllCountries().map((e)=><option value={e.isoCode} >{e.name}</option>)}
+</select></div>
+<div><label style={{width:"70px"}}>State:</label>
+<select>  
+  {State.getStatesOfCountry(`${select}`).map((e)=><option>{e.name}</option>)}
+</select></div></div><br/>
+
+{/*phone code */}
+<div className='d-flex'><label style={{width:"70px"}}>Phone:</label>
+<PhoneInput
+      placeholder="Enter phone number"
+      value={value}
+      onChange={setValue} style={{width:"200px",border:"1px solid black",padding:"1px"}}/>
+</div>
+
+{/*infinite scroll */}
   {newdatafour.slice(0,Number(scrollpage)+20).map((e)=>
   <div>{e.title}</div>)}
 
