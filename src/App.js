@@ -145,6 +145,31 @@ const deletefunc=(ev)=>{
   setIds(idrow);
   }
 
+//draggable question list
+ 
+// const dragItem = useRef();
+// const dragOverItem = useRef();
+// const handleSort = (ev, index, form) => {
+//   let duplicatequestion = [...questionList];
+//   let duplicatesubmitbutton=[...submitbutton];
+//   const draggedItemContent = duplicatequestion.splice(dragItem.current, 1)[0];
+//    duplicatequestion.splice(dragOverItem.current, 0, draggedItemContent);
+//    setQuestionList(duplicatequestion);
+
+// }
+
+// const mouseDown = (ev, index, form) => {
+//   let duplicatequestion = [...questionList];
+//   duplicatequestion[index].data.draggable = { value: true };
+//   setQuestionList(duplicatequestion);
+
+// }
+// const mouseUp = (ev, index, form) => {
+//   let duplicatequestion = [...questionList];
+//   duplicatequestion[index].data.draggable = { value: false };
+//   setQuestionList(duplicatequestion);
+// }
+
 //pagination
 const [dataone, setdataone] = useState([]);
 const [page, setPage] = useState(1);
